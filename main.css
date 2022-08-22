@@ -1,0 +1,51 @@
+html body{
+    background-color: rgb(52, 52, 52);
+    color:rgb(255, 255, 255);
+}
+.panel-heading{
+    background-color: rgb(46, 46, 46) !important;
+    color:rgb(255, 255, 255) !important;
+}
+
+.panel-body, .col-sm-6>.thumbnail{
+    background-color: rgb(37, 37, 37);
+    color:rgb(255, 255, 255);
+}
+.modal-content>.modal-header, .modal-content>.modal-footer{
+    background-color: rgb(46, 46, 46) !important;
+    color:rgb(255, 255, 255) !important;
+}
+
+.modal-content>.modal-body{
+    background-color: rgb(37, 37, 37);
+    color:rgb(255, 255, 255);
+}
+
+.well{
+    
+    background-color: rgb(37, 37, 37) !important;
+    color:rgb(255, 255, 255) !important;   
+}
+.problembox>pre, .panel-body>pre{
+    color : #ffffff !important;
+}
+
+.panel-footer{
+    
+    background-color: rgb(46, 46, 46) !important;
+    color:rgb(255, 255, 255) !important;
+}
+
+.row>.nav>li>a:focus, .row>.nav>li>a:hover{
+    background-color: rgb(44, 44, 44) !important;
+    border-color: #b5b5b5;
+}
+.row>.nav-tabs>li.active>a, .row>.nav-tabs>li.active>a:focus, .row>.nav-tabs>li.active>a:hover{
+    background-color: rgb(44, 44, 44) !important;
+    border-color: #b5b5b5;
+}
+
+tr:hover {
+    background-color: rgb(44, 44, 44) !important;
+}
+  

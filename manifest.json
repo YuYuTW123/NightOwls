@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "NightOwls",
+    "version": "1.0",
+    "description": "Make your eyes feel more comfortable.",
+
+    "action":{
+        "default_icon": {
+            "16" : "/img/icon_16.png",
+            "48" : "/img/icon_48.png",
+            "128" : "/img/icon_128.png"
+        },
+        "default_popup": "popup.html",
+        "default_title": "Click here!"
+    },
+
+    "permissions":[
+        "activeTab"
+    ],
+    
+    "icons": {
+        "16" : "/img/icon_16.png",
+        "48" : "/img/icon_48.png",
+        "128" : "/img/icon_128.png"
+    },
+    "content_scripts" : [{
+            "matches" : ["https://zerojudge.tw/*"],
+            "css" : ["main.css"]
+        }
+    ]
+  }
